@@ -1,0 +1,28 @@
+{
+  "login_both_none":{
+    "status_code":400,
+    "msg":"Missing required parameter in the JSON body"
+  },
+  "login_username_none":{
+    "verify_code":"8888",
+    "status_code":400,
+    "msg":"Missing required parameter in the JSON body"
+  },
+  "login_code_none":{
+    "username":"13012345678",
+    "status_code":400,
+    "msg":"Missing required parameter in the JSON body"
+  },
+  "login_username_wrong":{
+    "username":"130abde",
+    "verify_code":"8888",
+    "status_code":400,
+    "msg":"is not a valid mobile"
+  },
+  "login_code_wrong":{
+    "username":"13012345678",
+    "verify_code":"abcd",
+    "status_code":400,
+    "msg":"Invalid params"
+  }
+}
